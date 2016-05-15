@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D992599-6DEC-4A1D-B4CE-64C14502DE97}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Acc_System.My.MyApplication</StartupObject>
+    <RootNamespace>Acc_System</RootNamespace>
+    <AssemblyName>Acc_System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Acc_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Acc_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\backup\Accounting_System\Accounting_System\bin\Debug\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\backup\Accounting_System\Accounting_System\bin\Debug\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\backup\Accounting_System\Accounting_System\bin\Debug\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Transitions">
+      <HintPath>..\..\backup\Accounting_System\Accounting_System\bin\Debug\Transitions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACCDBDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ACCDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\clsItems.vb" />
+    <Compile Include="Classes\clsJournal.vb" />
+    <Compile Include="Classes\clsSalesInvoice.vb" />
+    <Compile Include="Classes\clsUpdateBalance.vb" />
+    <Compile Include="Classes\clsValidate.vb" />
+    <Compile Include="Custom Controls\clsVerticalTB.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\CornerCurveMode.vb" />
+    <Compile Include="Custom Controls\CustomPanel.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Custom Controls\LinearGradientMode.vb" />
+    <Compile Include="Forms\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmReports.Designer.vb">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVoucherEdit.Designer.vb">
+      <DependentUpon>frmVoucherEdit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVoucherEdit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\modConnection.vb" />
+    <Compile Include="Modules\modGlobal.vb" />
+    <Compile Include="Modules\modMethods.vb" />
+    <Compile Include="Modules\modValidate.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Panels\pnlAgeing.Designer.vb">
+      <DependentUpon>pnlAgeing.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlAgeing.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlBalanceSheet.Designer.vb">
+      <DependentUpon>pnlBalanceSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlBalanceSheet.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlDaybook.Designer.vb">
+      <DependentUpon>pnlDaybook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlDaybook.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlHome.Designer.vb">
+      <DependentUpon>pnlHome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlHome.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlIncomeStatement.Designer.vb">
+      <DependentUpon>pnlIncomeStatement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlIncomeStatement.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlItems.Designer.vb">
+      <DependentUpon>pnlItems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlItems.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlJournal.Designer.vb">
+      <DependentUpon>pnlJournal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlJournal.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlLedger.Designer.vb">
+      <DependentUpon>pnlLedger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlLedger.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlLogin.Designer.vb">
+      <DependentUpon>pnlLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlLogin.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlMasters.Designer.vb">
+      <DependentUpon>pnlMasters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlMasters.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlOutstanding.Designer.vb">
+      <DependentUpon>pnlOutstanding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlOutstanding.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlPayment.Designer.vb">
+      <DependentUpon>pnlPayment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlPayment.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlPayroll.Designer.vb">
+      <DependentUpon>pnlPayroll.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlPayroll.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlPDC.Designer.vb">
+      <DependentUpon>pnlPDC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlPDC.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlPending.Designer.vb">
+      <DependentUpon>pnlPending.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlPending.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlProfiAnalysis.Designer.vb">
+      <DependentUpon>pnlProfiAnalysis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlProfiAnalysis.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlPurchase.Designer.vb">
+      <DependentUpon>pnlPurchase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlPurchase.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlQuotation.Designer.vb">
+      <DependentUpon>pnlQuotation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlQuotation.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlReceipt.Designer.vb">
+      <DependentUpon>pnlReceipt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlReceipt.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlSales.Designer.vb">
+      <DependentUpon>pnlSales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlSales.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlSalesman.Designer.vb">
+      <DependentUpon>pnlSalesman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlSalesman.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlSalesView.Designer.vb">
+      <DependentUpon>pnlSalesView.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlSalesView.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlSettings.Designer.vb">
+      <DependentUpon>pnlSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlSettings.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlSlidingControl.Designer.vb">
+      <DependentUpon>pnlSlidingControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlSlidingControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlStockMove.Designer.vb">
+      <DependentUpon>pnlStockMove.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlStockMove.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlTransfer.Designer.vb">
+      <DependentUpon>pnlTransfer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlTransfer.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlTrialBalance.Designer.vb">
+      <DependentUpon>pnlTrialBalance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlTrialBalance.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\pnlVoucher.Designer.vb">
+      <DependentUpon>pnlVoucher.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\pnlVoucher.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmReports.resx">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVoucherEdit.resx">
+      <DependentUpon>frmVoucherEdit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlAgeing.resx">
+      <DependentUpon>pnlAgeing.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlBalanceSheet.resx">
+      <DependentUpon>pnlBalanceSheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlDaybook.resx">
+      <DependentUpon>pnlDaybook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlHome.resx">
+      <DependentUpon>pnlHome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlIncomeStatement.resx">
+      <DependentUpon>pnlIncomeStatement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlItems.resx">
+      <DependentUpon>pnlItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlJournal.resx">
+      <DependentUpon>pnlJournal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlLedger.resx">
+      <DependentUpon>pnlLedger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlLogin.resx">
+      <DependentUpon>pnlLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlMasters.resx">
+      <DependentUpon>pnlMasters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlOutstanding.resx">
+      <DependentUpon>pnlOutstanding.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlPayment.resx">
+      <DependentUpon>pnlPayment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlPayroll.resx">
+      <DependentUpon>pnlPayroll.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlPDC.resx">
+      <DependentUpon>pnlPDC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlPending.resx">
+      <DependentUpon>pnlPending.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlProfiAnalysis.resx">
+      <DependentUpon>pnlProfiAnalysis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlPurchase.resx">
+      <DependentUpon>pnlPurchase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlQuotation.resx">
+      <DependentUpon>pnlQuotation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlReceipt.resx">
+      <DependentUpon>pnlReceipt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSales.resx">
+      <DependentUpon>pnlSales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSalesman.resx">
+      <DependentUpon>pnlSalesman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSalesView.resx">
+      <DependentUpon>pnlSalesView.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlSettings.resx">
+      <DependentUpon>pnlSettings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlStockMove.resx">
+      <DependentUpon>pnlStockMove.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlTransfer.resx">
+      <DependentUpon>pnlTransfer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlTrialBalance.resx">
+      <DependentUpon>pnlTrialBalance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\pnlVoucher.resx">
+      <DependentUpon>pnlVoucher.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptInvoice.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ACCDBDataSet.xsc">
+      <DependentUpon>ACCDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ACCDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ACCDBDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ACCDBDataSet.xss">
+      <DependentUpon>ACCDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

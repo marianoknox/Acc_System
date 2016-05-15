@@ -1,0 +1,436 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Acc_System
+</name>
+</assembly>
+<members>
+<member name="T:Acc_System.ACCDBDataSet.tbAccGroupPrimaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemGroupListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemSupplierListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemUnitsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbLocationListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbUserAccessDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbUsersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVouchersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVoucherTypeListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbCurrencyDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbCostCenterListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbReferenceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVoucherTransDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountTransDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemTransDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAttendanceLogDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbEmployeeListDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountOpeningDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemBalanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemCategoryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemLocationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemOpeningDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbYearDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccGroupPrimaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemGroupListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemSupplierListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemUnitsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbLocationListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbUserAccessRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbUsersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVouchersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVoucherTypeListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbCurrencyRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbCostCenterListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbReferenceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVoucherTransRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountTransRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemTransRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAttendanceLogRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbEmployeeListRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountOpeningRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemBalanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemCategoryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemLocationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemOpeningRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbYearRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccGroupPrimaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemGroupListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemSupplierListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemUnitsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbLocationListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbUserAccessRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbUsersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVouchersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVoucherTypeListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbCurrencyRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbCostCenterListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbReferenceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbVoucherTransRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountTransRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemTransRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAttendanceLogRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbEmployeeListRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbAccountOpeningRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemBalanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemCategoryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemLocationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbItemOpeningRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet.tbYearRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbAccGroupPrimaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbItemGroupListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbItemsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbItemSupplierListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbItemUnitsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbLocationListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbUserAccessTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbUsersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbVouchersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbVoucherTypeListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbCurrencyTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbCostCenterListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbAccountsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbReferenceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbVoucherTransTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbAccountTransTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbItemTransTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbAttendanceLogTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.tbEmployeeListTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Acc_System.ACCDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Acc_System.ACCDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Acc_System.ACCDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager.UpdateAll(Acc_System.ACCDBDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Acc_System.ACCDBDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Acc_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Acc_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Acc_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
